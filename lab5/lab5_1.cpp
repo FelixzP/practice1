@@ -7,6 +7,7 @@ int main(){
     cout << "Enter character : ";
     cin >> Ch;
     cout << "Ch = " << Ch << endl;
+
     if(isalnum(Ch)){
         Message = "alnum";
         if(isalpha(Ch)){
